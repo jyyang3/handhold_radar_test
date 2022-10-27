@@ -1,0 +1,37 @@
+[0.545s] Invoking command in '/home/jingyan/iwr6843aop_pub-main': PYTHONPATH=/home/jingyan/iwr6843aop_pub-main/install/iwr6843aop_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/iwr6843aop_pub build --build-base /home/jingyan/iwr6843aop_pub-main/build/iwr6843aop_pub/build install --prefix /home/jingyan/iwr6843aop_pub-main/install/iwr6843aop_pub --record /home/jingyan/iwr6843aop_pub-main/build/iwr6843aop_pub/install.log --single-version-externally-managed
+[0.691s] running egg_info
+[0.691s] creating build/iwr6843aop_pub/iwr6843aop_pub.egg-info
+[0.691s] writing build/iwr6843aop_pub/iwr6843aop_pub.egg-info/PKG-INFO
+[0.691s] writing dependency_links to build/iwr6843aop_pub/iwr6843aop_pub.egg-info/dependency_links.txt
+[0.691s] writing entry points to build/iwr6843aop_pub/iwr6843aop_pub.egg-info/entry_points.txt
+[0.691s] writing requirements to build/iwr6843aop_pub/iwr6843aop_pub.egg-info/requires.txt
+[0.691s] writing top-level names to build/iwr6843aop_pub/iwr6843aop_pub.egg-info/top_level.txt
+[0.693s] writing manifest file 'build/iwr6843aop_pub/iwr6843aop_pub.egg-info/SOURCES.txt'
+[0.717s] reading manifest file 'build/iwr6843aop_pub/iwr6843aop_pub.egg-info/SOURCES.txt'
+[0.718s] writing manifest file 'build/iwr6843aop_pub/iwr6843aop_pub.egg-info/SOURCES.txt'
+[0.718s] running build
+[0.718s] running build_py
+[0.718s] creating /home/jingyan/iwr6843aop_pub-main/build/iwr6843aop_pub/build
+[0.718s] creating /home/jingyan/iwr6843aop_pub-main/build/iwr6843aop_pub/build/lib
+[0.718s] creating /home/jingyan/iwr6843aop_pub-main/build/iwr6843aop_pub/build/lib/iwr6843aop_pub
+[0.719s] copying iwr6843aop_pub/publisher_member_function.py -> /home/jingyan/iwr6843aop_pub-main/build/iwr6843aop_pub/build/lib/iwr6843aop_pub
+[0.719s] copying iwr6843aop_pub/__init__.py -> /home/jingyan/iwr6843aop_pub-main/build/iwr6843aop_pub/build/lib/iwr6843aop_pub
+[0.719s] running install
+[0.719s] running install_lib
+[0.719s] creating /home/jingyan/iwr6843aop_pub-main/install/iwr6843aop_pub/lib/python3.8/site-packages/iwr6843aop_pub
+[0.720s] copying /home/jingyan/iwr6843aop_pub-main/build/iwr6843aop_pub/build/lib/iwr6843aop_pub/publisher_member_function.py -> /home/jingyan/iwr6843aop_pub-main/install/iwr6843aop_pub/lib/python3.8/site-packages/iwr6843aop_pub
+[0.720s] copying /home/jingyan/iwr6843aop_pub-main/build/iwr6843aop_pub/build/lib/iwr6843aop_pub/__init__.py -> /home/jingyan/iwr6843aop_pub-main/install/iwr6843aop_pub/lib/python3.8/site-packages/iwr6843aop_pub
+[0.720s] byte-compiling /home/jingyan/iwr6843aop_pub-main/install/iwr6843aop_pub/lib/python3.8/site-packages/iwr6843aop_pub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[0.722s] byte-compiling /home/jingyan/iwr6843aop_pub-main/install/iwr6843aop_pub/lib/python3.8/site-packages/iwr6843aop_pub/__init__.py to __init__.cpython-38.pyc
+[0.722s] running install_data
+[0.723s] creating /home/jingyan/iwr6843aop_pub-main/install/iwr6843aop_pub/share/ament_index
+[0.723s] creating /home/jingyan/iwr6843aop_pub-main/install/iwr6843aop_pub/share/ament_index/resource_index
+[0.723s] creating /home/jingyan/iwr6843aop_pub-main/install/iwr6843aop_pub/share/ament_index/resource_index/packages
+[0.723s] copying resource/iwr6843aop_pub -> /home/jingyan/iwr6843aop_pub-main/install/iwr6843aop_pub/share/ament_index/resource_index/packages
+[0.723s] copying package.xml -> /home/jingyan/iwr6843aop_pub-main/install/iwr6843aop_pub/share/iwr6843aop_pub
+[0.723s] running install_egg_info
+[0.724s] Copying build/iwr6843aop_pub/iwr6843aop_pub.egg-info to /home/jingyan/iwr6843aop_pub-main/install/iwr6843aop_pub/lib/python3.8/site-packages/iwr6843aop_pub-0.0.0-py3.8.egg-info
+[0.725s] running install_scripts
+[0.736s] Installing pcl_pub script to /home/jingyan/iwr6843aop_pub-main/install/iwr6843aop_pub/lib/iwr6843aop_pub
+[0.737s] writing list of installed files to '/home/jingyan/iwr6843aop_pub-main/build/iwr6843aop_pub/install.log'
+[0.757s] Invoked command in '/home/jingyan/iwr6843aop_pub-main' returned '0': PYTHONPATH=/home/jingyan/iwr6843aop_pub-main/install/iwr6843aop_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/iwr6843aop_pub build --build-base /home/jingyan/iwr6843aop_pub-main/build/iwr6843aop_pub/build install --prefix /home/jingyan/iwr6843aop_pub-main/install/iwr6843aop_pub --record /home/jingyan/iwr6843aop_pub-main/build/iwr6843aop_pub/install.log --single-version-externally-managed

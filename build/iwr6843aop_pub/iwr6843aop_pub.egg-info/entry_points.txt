@@ -1,0 +1,2 @@
+[console_scripts]
+pcl_pub = iwr6843aop_pub.publisher_member_function:main
