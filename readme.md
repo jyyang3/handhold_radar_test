@@ -1,0 +1,1 @@
+given enough initialization time, it's possible to perform some localization purely based on data from mmWave sensor. But the performance depends heavily on the environment setup. In real implementation, I'd better use odometry data to provide more supplementary information.
