@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: iwr6843aop-pub
-Version: 0.0.0
-Summary: Publishes pointcloud data from IWR6843AOPEVM mmWave device
-Maintainer: nm
-Maintainer-email: nhma@mmmi.sdu.dk
-License: TODO: License declaration

@@ -41,6 +41,7 @@ def generate_launch_description():
         parameters=[{'use_sim_time': use_sim_time}],
         arguments=['-resolution', resolution, '-publish_period_sec', publish_period_sec])
 
+    '''
     rviz_node = Node(
         package='rviz2',
         executable='rviz2',
@@ -48,11 +49,10 @@ def generate_launch_description():
         # arguments=['-d', rviz_config_dir],
         parameters=[{'use_sim_time': use_sim_time}],
         output='screen')
-
+    '''
     #===============================================定义启动文件========================================================
     ld = LaunchDescription()
     ld.add_action(cartographer_node)
     ld.add_action(occupancy_grid_node)
-    ld.add_action(rviz_node)
-
+    #ld.add_action(rviz_node)
     return ld

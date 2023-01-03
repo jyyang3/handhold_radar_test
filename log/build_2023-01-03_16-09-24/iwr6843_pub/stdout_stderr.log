@@ -1,0 +1,13 @@
+/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  warnings.warn(
+running egg_info
+creating ../../build/iwr6843_pub/iwr6843_pub.egg-info
+writing ../../build/iwr6843_pub/iwr6843_pub.egg-info/PKG-INFO
+writing dependency_links to ../../build/iwr6843_pub/iwr6843_pub.egg-info/dependency_links.txt
+writing entry points to ../../build/iwr6843_pub/iwr6843_pub.egg-info/entry_points.txt
+writing requirements to ../../build/iwr6843_pub/iwr6843_pub.egg-info/requires.txt
+writing top-level names to ../../build/iwr6843_pub/iwr6843_pub.egg-info/top_level.txt
+writing manifest file '../../build/iwr6843_pub/iwr6843_pub.egg-info/SOURCES.txt'
+error: package directory 'iwr6843_pub' does not exist

@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/iwr6843_pub/iwr6843_pub.egg-info/PKG-INFO
+writing dependency_links to ../../build/iwr6843_pub/iwr6843_pub.egg-info/dependency_links.txt
+writing entry points to ../../build/iwr6843_pub/iwr6843_pub.egg-info/entry_points.txt
+writing requirements to ../../build/iwr6843_pub/iwr6843_pub.egg-info/requires.txt
+writing top-level names to ../../build/iwr6843_pub/iwr6843_pub.egg-info/top_level.txt
+reading manifest file '../../build/iwr6843_pub/iwr6843_pub.egg-info/SOURCES.txt'
+writing manifest file '../../build/iwr6843_pub/iwr6843_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jingyan/handhold_radar_test/build/iwr6843_pub/build
+creating /home/jingyan/handhold_radar_test/build/iwr6843_pub/build/lib
+creating /home/jingyan/handhold_radar_test/build/iwr6843_pub/build/lib/iwr6843_pub
+copying iwr6843_pub/__init__.py -> /home/jingyan/handhold_radar_test/build/iwr6843_pub/build/lib/iwr6843_pub
+copying iwr6843_pub/publisher_member_function.py -> /home/jingyan/handhold_radar_test/build/iwr6843_pub/build/lib/iwr6843_pub
+running install
+running install_lib
+creating /home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/python3.8/site-packages/iwr6843_pub
+copying /home/jingyan/handhold_radar_test/build/iwr6843_pub/build/lib/iwr6843_pub/__init__.py -> /home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/python3.8/site-packages/iwr6843_pub
+copying /home/jingyan/handhold_radar_test/build/iwr6843_pub/build/lib/iwr6843_pub/publisher_member_function.py -> /home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/python3.8/site-packages/iwr6843_pub
+byte-compiling /home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/python3.8/site-packages/iwr6843_pub/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/python3.8/site-packages/iwr6843_pub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+running install_data
+creating /home/jingyan/handhold_radar_test/install/iwr6843_pub/share/ament_index
+creating /home/jingyan/handhold_radar_test/install/iwr6843_pub/share/ament_index/resource_index
+creating /home/jingyan/handhold_radar_test/install/iwr6843_pub/share/ament_index/resource_index/packages
