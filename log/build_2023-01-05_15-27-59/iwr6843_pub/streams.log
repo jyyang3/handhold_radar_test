@@ -1,0 +1,27 @@
+[0.794s] Invoking command in '/home/jingyan/handhold_radar_test/src/iwr6843_pub': PYTHONPATH=/home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iwr6843_pub build --build-base /home/jingyan/handhold_radar_test/build/iwr6843_pub/build install --prefix /home/jingyan/handhold_radar_test/install/iwr6843_pub --record /home/jingyan/handhold_radar_test/build/iwr6843_pub/install.log --single-version-externally-managed
+[0.988s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.988s]   warnings.warn(
+[0.988s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.988s]   warnings.warn(
+[1.046s] running egg_info
+[1.054s] writing ../../build/iwr6843_pub/iwr6843_pub.egg-info/PKG-INFO
+[1.054s] writing dependency_links to ../../build/iwr6843_pub/iwr6843_pub.egg-info/dependency_links.txt
+[1.055s] writing entry points to ../../build/iwr6843_pub/iwr6843_pub.egg-info/entry_points.txt
+[1.055s] writing requirements to ../../build/iwr6843_pub/iwr6843_pub.egg-info/requires.txt
+[1.055s] writing top-level names to ../../build/iwr6843_pub/iwr6843_pub.egg-info/top_level.txt
+[1.072s] reading manifest file '../../build/iwr6843_pub/iwr6843_pub.egg-info/SOURCES.txt'
+[1.073s] writing manifest file '../../build/iwr6843_pub/iwr6843_pub.egg-info/SOURCES.txt'
+[1.073s] running build
+[1.073s] running build_py
+[1.073s] running install
+[1.073s] /usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.074s]   warnings.warn(
+[1.078s] running install_lib
+[1.086s] running install_data
+[1.094s] running install_egg_info
+[1.103s] removing '/home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/python3.8/site-packages/iwr6843_pub-0.0.0-py3.8.egg-info' (and everything under it)
+[1.103s] Copying ../../build/iwr6843_pub/iwr6843_pub.egg-info to /home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/python3.8/site-packages/iwr6843_pub-0.0.0-py3.8.egg-info
+[1.104s] running install_scripts
+[1.149s] Installing pcl_pub script to /home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/iwr6843_pub
+[1.149s] writing list of installed files to '/home/jingyan/handhold_radar_test/build/iwr6843_pub/install.log'
+[1.194s] Invoked command in '/home/jingyan/handhold_radar_test/src/iwr6843_pub' returned '0': PYTHONPATH=/home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iwr6843_pub build --build-base /home/jingyan/handhold_radar_test/build/iwr6843_pub/build install --prefix /home/jingyan/handhold_radar_test/install/iwr6843_pub --record /home/jingyan/handhold_radar_test/build/iwr6843_pub/install.log --single-version-externally-managed
