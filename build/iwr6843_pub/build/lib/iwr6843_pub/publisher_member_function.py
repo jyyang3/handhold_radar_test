@@ -84,7 +84,7 @@ class TI:
 
             # Hard code the number of antennas, change if other configuration is used
             num_rx_ant = 4
-            num_tx_ant = 2
+            num_tx_ant = 3
 
             # Get the information about the profile configuration
             if "profileCfg" in split_words[0]:
@@ -125,6 +125,8 @@ class TI:
             300 * 0.9 * dig_out_sample_rate) / (2 * freq_slope_const * 1e3)
         self.config_params["maxVelocity"] = 3e8 / (
             4 * start_freq * 1e9 * (idle_time + ramp_end_time) * 1e-6 * num_tx_ant)
+        #print((3e8 * dig_out_sample_rate * 1e3) / (
+        #    2 * freq_slope_const * 1e12 * num_adc_samples))
 
     def close(self):
         """End connection between radar and machine
@@ -338,7 +340,7 @@ class MinimalPublisher(Node):
             pcl_msg = PointCloud2()
             pcl_msg.header = std_msgs.msg.Header()
             pcl_msg.header.stamp = self.get_clock().now().to_msg()
-            pcl_msg.header.frame_id = 'iwr6843_frame'
+            pcl_msg.header.frame_id = 'laser_link'
             pcl_msg.height = 1  # because unordered cloud
             pcl_msg.width = cloud_arr.shape[0]  # number of points in cloud
             # define interpretation of pointcloud message (offset is in bytes, float32 is 4 bytes)
