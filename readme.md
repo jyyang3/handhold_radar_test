@@ -16,3 +16,9 @@ the published frame for mmWave radar is called "iwr6843_frame"
 
 
 Given enough initialization time, it's possible to perform some localization purely based on data from mmWave sensor. But the performance depends heavily on the environment setup. In real implementation, It's better to use odometry data to provide supplementary information.
+
+give fixed port name to serial devices:
+1.udevadm info --attribute-walk --name=/dev/ttyUSB0
+2.check third "look at" ,record KERNELS == ???? ,e.g. KERNELS=="2-3:1.0"
+3.sudo gedit /etc/udev/rules.d/usb.rules
+4.enter "KERNELS=="2-3:1.0", MODE:="0777", GROUP:="dialout", SYMLINK+="radar/drone/etc.""
