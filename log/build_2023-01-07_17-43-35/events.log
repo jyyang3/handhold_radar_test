@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000431] (-) JobUnselected: {'identifier': 'iwr6843_pub'}
-[0.000503] (-) JobUnselected: {'identifier': 'radar_cartographer'}
-[0.000955] (-) EventReactorShutdown: {}
