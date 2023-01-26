@@ -12,7 +12,7 @@ To run the mmWave radar SLAM
 1."ros2 run iwr6843_pub pcl_pub"
 2."ros2 launch radar_cartographer cartographer.launch.py"
 
-the published frame for mmWave radar is called "iwr6843_frame"
+the published frame for mmWave radar is called "laser_link"
 
 
 Given enough initialization time, it's possible to perform some localization purely based on data from mmWave sensor. But the performance depends heavily on the environment setup. In real implementation, It's better to use odometry data to provide supplementary information.
@@ -22,3 +22,9 @@ give fixed port name to serial devices:
 2.check third "look at" ,record KERNELS == ???? ,e.g. KERNELS=="2-3:1.0"
 3.sudo gedit /etc/udev/rules.d/usb.rules
 4.enter "KERNELS=="2-3:1.0", MODE:="0777", GROUP:="dialout", SYMLINK+="radar/drone/etc.""
+
+ros2 bag replay:
+1.rviz2
+2.ros2 bag play SLAMDATA0
+3.ros2 launch radar_cartographer cartographer.launch.py
+

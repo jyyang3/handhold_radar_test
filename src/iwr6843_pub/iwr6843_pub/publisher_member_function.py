@@ -35,12 +35,12 @@ MSG_AZIMUT_STATIC_HEAT_MAP = 8
 ms_per_frame = 9999.0
 default_cfg = os.path.dirname(os.path.realpath(__file__)).replace(
     "install/iwr6843_pub/lib/python3.8/site-packages/iwr6843_pub", "/src/iwr6843_pub/cfg_files") + "/" + "yang2d.cfg"
-data_port = '/dev/ttyUSB1'
-cli_port = '/dev/ttyUSB0'
+data_port = '/dev/ttyUSB1'#use '/dev/Radar0' in raspi
+cli_port = '/dev/ttyUSB0'#use '/dev/Radar1' in raspi
 
 
 class TI:
-    def __init__(self, sdk_version=3.6,  cli_baud=115200, data_baud=921600, num_rx=4, num_tx=2,
+    def __init__(self, sdk_version=3.6,  cli_baud=115200, data_baud=921600, num_rx=4, num_tx=3,
                  verbose=False, connect=True, mode=0, cli_loc='COM4', data_loc='COM3'):
         super(TI, self).__init__()
         self.connected = False
@@ -108,6 +108,7 @@ class TI:
                 num_loops = int(split_words[3])
                 num_frames = int(split_words[4])
                 frame_periodicity = float(split_words[5])
+                
 
         # Combine the read data to obtain the configuration parameters
         num_chirps_per_frame = (
@@ -196,7 +197,7 @@ class TI:
 
     def _process_azimut_heat_map(self, byte_buffer):
         """
-        热图
+        Heatmap
         """
         idx = byte_buffer.index(MAGIC_WORD)
         header_data, idx = self._parse_header_data(byte_buffer, idx)
@@ -215,7 +216,7 @@ class TI:
 
     def _process_detected_points(self, byte_buffer):
         """
-        点云
+        PointCloud
         """
         idx = byte_buffer.index(MAGIC_WORD)
         header_data, idx = self._parse_header_data(byte_buffer, idx)
@@ -288,7 +289,7 @@ class Detected_Points:
                 warn += 1
             else:
                 warn = 0
-            if (warn > 1000):  # 连续10次空读取则退出 / after 10 empty frames
+            if (warn > 1000):  # quit after 10 empty frames
                 print("Wrong")
                 break
 

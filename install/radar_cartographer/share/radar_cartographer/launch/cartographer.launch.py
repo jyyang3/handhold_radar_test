@@ -11,7 +11,7 @@ def generate_launch_description():
     
     #=====================运行节点需要的配置=======================================================================
     # 是否使用仿真时间，我们用gazebo，这里设置成true
-    use_sim_time = LaunchConfiguration('use_sim_time', default='false')
+    use_sim_time = LaunchConfiguration('use_sim_time', default='true')
     # 地图的分辨率
     resolution = LaunchConfiguration('resolution', default='0.05')
     # 地图的发布周期
@@ -19,7 +19,7 @@ def generate_launch_description():
     # 配置文件夹路径
     configuration_directory = LaunchConfiguration('configuration_directory',default= os.path.join(pkg_share, 'config') )
     # 配置文件
-    configuration_basename = LaunchConfiguration('configuration_basename', default='fishbot_2d.lua')
+    configuration_basename = LaunchConfiguration('configuration_basename', default='mmWave_2d.lua')
 
     
     #=====================声明三个节点，cartographer/occupancy_grid_node/rviz_node=================================

@@ -99,6 +99,11 @@ class TI:
                     num_adc_samples_round_to2 = num_adc_samples_round_to2 * 2
 
                 dig_out_sample_rate = int(split_words[11])
+                print("Start_freq="+start_freq)
+                print("idle time="+idle_time)
+                print("ramp end time="+idle_time)
+                print("freq slope const"+freq_slope_const)
+                print("num_adc_samples"+num_adc_samples)
 
             # Get the information about the frame configuration
             elif "frameCfg" in split_words[0]:
@@ -108,6 +113,7 @@ class TI:
                 num_loops = int(split_words[3])
                 num_frames = int(split_words[4])
                 frame_periodicity = float(split_words[5])
+                
 
         # Combine the read data to obtain the configuration parameters
         num_chirps_per_frame = (

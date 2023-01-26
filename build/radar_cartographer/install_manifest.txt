@@ -1,4 +1,5 @@
 /home/jingyan/handhold_radar_test/install/radar_cartographer/share/radar_cartographer/config/fishbot_2d.lua
+/home/jingyan/handhold_radar_test/install/radar_cartographer/share/radar_cartographer/config/mmWave_2d.lua
 /home/jingyan/handhold_radar_test/install/radar_cartographer/share/radar_cartographer/launch/cartographer.launch.py
 /home/jingyan/handhold_radar_test/install/radar_cartographer/share/ament_index/resource_index/package_run_dependencies/radar_cartographer
 /home/jingyan/handhold_radar_test/install/radar_cartographer/share/ament_index/resource_index/parent_prefix_path/radar_cartographer

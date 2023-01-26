@@ -1,0 +1,26 @@
+[0.676s] Invoking command in '/home/jingyan/handhold_radar_test/src/iwr6843_pub': PYTHONPATH=/home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iwr6843_pub build --build-base /home/jingyan/handhold_radar_test/build/iwr6843_pub/build install --prefix /home/jingyan/handhold_radar_test/install/iwr6843_pub --record /home/jingyan/handhold_radar_test/build/iwr6843_pub/install.log --single-version-externally-managed
+[0.832s] /home/jingyan/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.833s]   warnings.warn(
+[0.833s] /home/jingyan/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.833s]   warnings.warn(
+[0.852s] running egg_info
+[0.859s] writing manifest file '../../build/iwr6843_pub/iwr6843_pub.egg-info/SOURCES.txt'
+[0.859s] running build
+[0.859s] running build_py
+[0.859s] copying iwr6843_pub/publisher_member_function.py -> /home/jingyan/handhold_radar_test/build/iwr6843_pub/build/lib/iwr6843_pub
+[0.859s] running install
+[0.859s] running install_lib
+[0.861s] byte-compiling /home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/python3.8/site-packages/iwr6843_pub/Ros2bag_time_update.py to Ros2bag_time_update.cpython-38.pyc
+[0.861s]   File "/home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/python3.8/site-packages/iwr6843_pub/Ros2bag_time_update.py", line 34
+[0.862s]     using namespace std::chrono_literals;
+[0.862s]           ^
+[0.862s] SyntaxError: invalid syntax
+[0.862s] 
+[0.862s] byte-compiling /home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/python3.8/site-packages/iwr6843_pub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[0.863s] running install_data
+[0.864s] running install_egg_info
+[0.865s] removing '/home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/python3.8/site-packages/iwr6843_pub-0.0.0-py3.8.egg-info' (and everything under it)
+[0.865s] Copying ../../build/iwr6843_pub/iwr6843_pub.egg-info to /home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/python3.8/site-packages/iwr6843_pub-0.0.0-py3.8.egg-info
+[0.866s] running install_scripts
+[0.879s] writing list of installed files to '/home/jingyan/handhold_radar_test/build/iwr6843_pub/install.log'
+[0.900s] Invoked command in '/home/jingyan/handhold_radar_test/src/iwr6843_pub' returned '0': PYTHONPATH=/home/jingyan/handhold_radar_test/install/iwr6843_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iwr6843_pub build --build-base /home/jingyan/handhold_radar_test/build/iwr6843_pub/build install --prefix /home/jingyan/handhold_radar_test/install/iwr6843_pub --record /home/jingyan/handhold_radar_test/build/iwr6843_pub/install.log --single-version-externally-managed
